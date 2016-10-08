@@ -2,8 +2,7 @@
  * instanciar uma classe significa criar um objeto dela
  * ex: Livro livro = new Livro ();
  * 
- * */
-
+ */
 import java.util.Scanner;
 
 public class Operacoes {
@@ -41,20 +40,14 @@ public class Operacoes {
 		System.out.println("informe o segundo numero: ");
 		result = (a / b);
 		System.out.println("O resultado da divisao e " + result);
-	}
-	
-	
-	
-	
+	}	
 	public static void main (String [] args) {
 		/* Instancia da classe Operacoes */
-		Operacoes o = new Operacoes ();
-		
+		Operacoes o = new Operacoes ();		
 		
 		Scanner SC = new Scanner(System.in);
 		
-		while (o.esc != "sair") {
-			
+		while (o.esc != "sair") {			
 		
 		System.out.println("Qual operacao voce deseja realizar ");
 		o.esc = SC.nextLine();
@@ -75,16 +68,16 @@ public class Operacoes {
 
             case ("dividir"):
                 o.dividir ();
-                break;
-            
+                break;            
          }
-		System.out.println("fim do jogo");
+		  System.out.println("fim do jogo");
 	  }		
 		
    }	
 
 }
 
+/* Identei de forma correta o código */
 
 
 
